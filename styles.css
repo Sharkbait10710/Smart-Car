@@ -126,8 +126,6 @@ img {
     font-size: 30px;
     display: flex;
     flex-direction: column-reverse;
-    list-style: none;
-    text-decoration: none;
     position: relative;
     bottom: 10vh;
 }
@@ -140,6 +138,14 @@ img {
     padding: 10px;
     text-align: center;
     background-color: orange;
+}
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+a {
+    color: rgb(168, 119, 28);
+    text-decoration: none;
 }
 .show {
     display: block;
